@@ -4,7 +4,7 @@ gsis-wsnp-php is a simple PHP client for accessing the web service for legal ent
 
 The user provides the script with the legal entity's VAT Number, and it returns the details offered by the web service, like the company's name, its address, date of registration e.t.c.
 
-As it was made for illustrative purposes, it doesn't pay any attention in formatting the output, or checking for the VAT Number's validity. Nevertheless, it implements some error handling, showing the error if it occurs.
+As it was made for illustrative purposes, it doesn't pay any attention in formatting the output, or checking for the VAT Number's validity. Nevertheless, it implements some error handling, showing the error if one occurs.
 
 For more information about the WSNP specifications please visit: [http://www.gsis.gr/wsnp.html](http://www.gsis.gr/wsnp.html).
 
@@ -16,7 +16,7 @@ If you want to access the data using a JSON web service, you can call
 
 [http://www.appnoesis.com/gsis/wsnp/json/entities/094422282](http://www.appnoesis.com/gsis/wsnp/json/entities/094422282)
 
-by replacing 094422282 with the VAT Number of the legal entity you are interested in.
+having replaced 094422282 with the VAT Number of the legal entity you are interested in. The result is returned in escaped Unicode.
 
 ## License
 
